@@ -16,6 +16,7 @@ public class RedisServicesImpl implements RedisServices {
 
     public void set(String key, Object value) {
         ValueOperations<String,Object> vo = redisTemplate.opsForValue();
+        
          vo.set(key, value);
     }
     public Object get(String key) {
