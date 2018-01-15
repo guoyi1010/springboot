@@ -18,6 +18,15 @@ public class RedisConfigs extends CachingConfigurerSupport {
        return cacheManager;
     }
 
+	//ssss
+	//sssss
+	//sssss
+	//sssss//sssss
+	//sssss
+	//sssss
+	//sssss
+	//sssss
+	//sssss
     @Bean
     public RedisTemplate<String, String> redisTemplate(RedisConnectionFactory factory) {
        RedisTemplate<String, String> redisTemplate = new RedisTemplate<String, String>();
